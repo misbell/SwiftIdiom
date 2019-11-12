@@ -15,6 +15,8 @@
 		1B4CB2BB237B3E1300DEF668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CB2B9237B3E1300DEF668 /* LaunchScreen.storyboard */; };
 		1B4CB2C3237B3E7100DEF668 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CB2C2237B3E7100DEF668 /* EscapingClosures.swift */; };
 		1B4CB2C5237B4AA900DEF668 /* TestEsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CB2C4237B4AA900DEF668 /* TestEsc.swift */; };
+		1B4CB2C7237B77E900DEF668 /* MutatingSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CB2C6237B77E900DEF668 /* MutatingSelf.swift */; };
+		1B4CB2C9237B7AC600DEF668 /* NonMutatingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CB2C8237B7AC600DEF668 /* NonMutatingProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1B4CB2BC237B3E1300DEF668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4CB2C2237B3E7100DEF668 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
 		1B4CB2C4237B4AA900DEF668 /* TestEsc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEsc.swift; sourceTree = "<group>"; };
+		1B4CB2C6237B77E900DEF668 /* MutatingSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingSelf.swift; sourceTree = "<group>"; };
+		1B4CB2C8237B7AC600DEF668 /* NonMutatingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonMutatingProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				1B4CB2B7237B3E1300DEF668 /* Assets.xcassets */,
 				1B4CB2B9237B3E1300DEF668 /* LaunchScreen.storyboard */,
 				1B4CB2BC237B3E1300DEF668 /* Info.plist */,
+				1B4CB2C6237B77E900DEF668 /* MutatingSelf.swift */,
+				1B4CB2C8237B7AC600DEF668 /* NonMutatingProperty.swift */,
 			);
 			path = SwiftIdiom;
 			sourceTree = "<group>";
@@ -144,10 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4CB2C9237B7AC600DEF668 /* NonMutatingProperty.swift in Sources */,
 				1B4CB2B3237B3E0F00DEF668 /* ViewController.swift in Sources */,
 				1B4CB2AF237B3E0F00DEF668 /* AppDelegate.swift in Sources */,
 				1B4CB2B1237B3E0F00DEF668 /* SceneDelegate.swift in Sources */,
 				1B4CB2C5237B4AA900DEF668 /* TestEsc.swift in Sources */,
+				1B4CB2C7237B77E900DEF668 /* MutatingSelf.swift in Sources */,
 				1B4CB2C3237B3E7100DEF668 /* EscapingClosures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
