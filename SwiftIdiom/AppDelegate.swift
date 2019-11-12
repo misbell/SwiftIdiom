@@ -11,10 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+     func run() {
+        var a = EscClosures()
+        a.run()
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+         let a = TestEsc()
+         a.run()
+        
         return true
     }
 

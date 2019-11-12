@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct TestEsc {
+    
+ 
+    func run() {
+        var a = EscClosures()
+        a.run()
+    }
+    
+}
