@@ -17,6 +17,10 @@ class TreeDoctor {
     
 }
 
+//** this works because i am not mutating the value type
+// I am mutating an instance of a class. Note that this works
+// even though the class is a let constant on a struct.
+
 struct Tree {
     
     let treeDoc = TreeDoctor(name: "Bill Johnson")
@@ -26,7 +30,7 @@ struct Tree {
     var kind: String?
     
     var  treeDocName: String {
-        nonmutating set {
+        nonmutating set { //**
             treeDoc.name = "William Johnson"
         }
         get {

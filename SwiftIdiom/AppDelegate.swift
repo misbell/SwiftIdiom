@@ -14,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      func run() {
         var a = EscClosures()
         a.run()
+        
+        var b = TheaterSeat()
+        b.run()
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
